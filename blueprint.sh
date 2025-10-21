@@ -22,6 +22,7 @@ blueprints=(
   "huxregister.blueprint"
   "mcmods.blueprint"
   "myhticalui.blueprint"
+  "minecrafticonchanger.blueprint"
 )
 for bp in "${blueprints[@]}"; do
   if [ -f "$bp" ]; then
